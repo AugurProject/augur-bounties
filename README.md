@@ -1,6 +1,6 @@
 # Augur Bounties
 
-Bounties put fourth by the Augur team for Ethereum/Solidity tooling. See Jack Petersons presentation at Devcon3 for more details into the bounty program.
+Bounties put fourth by the Augur team for Ethereum/Solidity tooling.
 
 ## <a id="bounty-one"/> Bounty #1: Safe Solidity Solium Rules
 
