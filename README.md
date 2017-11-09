@@ -2,7 +2,7 @@
 
 Bounties put fourth by the Augur team for Ethereum/Solidity tooling. See Jack Petersons presentation at Devcon3 for more details into the bounty program.
 
-## Bounty #1: Safe Solidity Solium Rules
+## <a id="bounty-one"/> Bounty #1: Safe Solidity Solium Rules
 
 **50 REP** bounty **per** rule added to [Solium](https://github.com/duaraghav8/Solium).
 
@@ -30,7 +30,7 @@ Bounties put fourth by the Augur team for Ethereum/Solidity tooling. See Jack Pe
 - **[optional]** Prohibit use of call.value
 - **[optional]** Prohibit use of user-defined modifiers
 
-## Bounty #2: Portable Solidity Debugger
+## <a id="bounty-two"/> Bounty #2: Portable Solidity Debugger
 
 **2000 REP** bounty for a Solidity debugger which is portable / provided as a library.  
 
@@ -38,7 +38,7 @@ The debugger should have the following features:
 
 - Set breakpoints in Solidity
 - Inspect variables when those breakpoints are hit
-- Execute Solidity from the context of a breakpoint and see the result/failure
+- Execute Solidity from the context of a bremakpoint and see the result/failure
 - Library that can be integrated into editors/IDEs
 - VSCode integration
 - Should work on any OS
