@@ -20,6 +20,7 @@ Bounties put fourth by the Augur team for Ethereum/Solidity tooling.
 - [required] Prohibit use of var / all variable types must be explicitly stated
 - [required] Prohibit use of named parameters in [function calls](https://solidity.readthedocs.io/en/develop/control-structures.html#named-calls-and-anonymous-function-parameters).
 - [required] Prohibit use of inheritance
+- [required] Prohibit use of multiple inheritance 
 - [required] Prohibit function overriding
 - [required] Prohibit abstract functions
 - [required] Functions must have an explicit return statement
