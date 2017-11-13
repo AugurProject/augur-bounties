@@ -6,13 +6,14 @@ Bounties put fourth by the Augur team for Ethereum/Solidity tooling.
 
 **50 REP** bounty **per** rule added to [Solium](https://github.com/duaraghav8/Solium).
 
-### Open Bounties (03 of 30)
+### Open Bounties (04 of 31)
 
 - [required] Prohibit use of multiple inheritance but allow interfaces
 - [required] Prohibit use of inheritance but allow interfaces
 - [required] Do not assign to parameters
+- **[optional]** Modifiers must have the _ as the last statement of the modifier
 
-### Completed & Merged (16 of 30)
+### Completed & Merged (16 of 31)
 
 - [required] Prohibit unreachable code [[@solium-plugin]](https://github.com/duaraghav8/solium-plugin-security)
 - [required] Prohibit use of assembly [[@solium-plugin]](https://github.com/duaraghav8/solium-plugin-security)
@@ -32,7 +33,7 @@ Bounties put fourth by the Augur team for Ethereum/Solidity tooling.
 - [required] Only one break statement allowed per loop [[@artemlitch]](https://github.com/duaraghav8/solium-plugin-security/pull/3)
 
 
-### Pending Merge: (11 of 30)
+### Pending Merge: (11 of 31)
 
 - [required] An else clause must be included after else if [[@mpokrass]](https://github.com/duaraghav8/solium-plugin-security/pull/4)
 - [required] Prohibit use of send
