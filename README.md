@@ -6,30 +6,52 @@ Bounties put fourth by the Augur team for Ethereum/Solidity tooling.
 
 **50 REP** bounty **per** rule added to [Solium](https://github.com/duaraghav8/Solium).
 
- - [required] Prohibit loops without fixed bounds
- - [required] Prohibit unreachable code
- - [required] Prohibit use of continue statement
- - **[optional]** Restrict functions to a user-specified number of lines of code
- - [required] Prohibit use of selfdestruct/suicide
- - [required] Prohibit use of assembly
- - [required] Prohibit use of tx.origin
- - [required] Prohibit use of integer types smaller than 256 bits
- - [required] Prohibit bitshifts and bit operators
-- [required] Prohibit fixedpoint (fixed and ufixed) types
-- [required] Prohibit modification of for loop iteration counting variables in the loop body
-- [required] Prohibit use of var / all variable types must be explicitly stated
-- [required] Prohibit use of named parameters in [function calls](https://solidity.readthedocs.io/en/develop/control-structures.html#named-calls-and-anonymous-function-parameters).
-- [required] Prohibit use of inheritance
-- [required] Prohibit use of multiple inheritance 
-- [required] Prohibit function overriding
-- [required] Prohibit abstract functions
-- [required] Functions must have an explicit return statement
-- **[optional]** Functions must have a single return at the end of the function
-- [required] An else clause must be included after else if
-- [required] Only one break statement allowed per loop
+### Open Bounties (03 of 30)
+
+- [required] Prohibit use of multiple inheritance but allow interfaces
+- [required] Prohibit use of inheritance but allow interfaces
+- [required] Do not assign to parameters
+
+### Completed & Merged (16 of 30)
+
+- [required] Prohibit unreachable code [[@solium-plugin]](https://github.com/duaraghav8/solium-plugin-security)
+- [required] Prohibit use of assembly [[@solium-plugin]](https://github.com/duaraghav8/solium-plugin-security)
+- [required] Prohibit use of tx.origin [[@solium-plugin]](https://github.com/duaraghav8/solium-plugin-security)
+- **[optional]** Prohibit use of call.value [[@solium-plugin]](https://github.com/duaraghav8/solium-plugin-security)
+- **[optional]** Prohibit use of delegatecall [[@solium-plugin]](https://github.com/duaraghav8/solium-plugin-security)
+- [required] Prohibit use of selfdestruct/suicide [[@beaugunderson]](https://github.com/duaraghav8/solium-plugin-security/pull/1)
+- [required] Prohibit bitshifts and bit operators [[@beaugunderson]](https://github.com/duaraghav8/solium-plugin-security/pull/1)
+- [required] Prohibit fixedpoint (fixed and ufixed) types [[@beaugunderson]](https://github.com/duaraghav8/solium-plugin-security/pull/1)
+- [required] Prohibit use of integer types smaller than 256 bits [[@beaugunderson]](https://github.com/duaraghav8/solium-plugin-security/pull/1)
+- [required] Prohibit use of var / all variable types must be explicitly stated [[@beaugunderson]](https://github.com/duaraghav8/solium-plugin-security/pull/1)
+- [required] Prohibit use of named parameters in function calls [[@beaugunderson]](https://github.com/duaraghav8/solium-plugin-security/pull/1)
+- **[optional]** Prohibit use of user-defined modifiers [[@beaugunderson]](https://github.com/duaraghav8/solium-plugin-security/pull/1)
+- **[optional]** Restrict functions to a user-specified number of lines of code [[@beaugunderson]](https://github.com/duaraghav8/solium-plugin-security/pull/1)
+- [required] Prohibit unreachable code [[@beaugunderson]](https://github.com/duaraghav8/solium-plugin-security/pull/1)
+- [required] Prohibit use of continue statement [[@Cisplatin]](https://github.com/duaraghav8/solium-plugin-security/pull/2)
+- [required] Only one break statement allowed per loop [[@artemlitch]](https://github.com/duaraghav8/solium-plugin-security/pull/3)
+
+
+### Pending Merge: (11 of 30)
+
+- [required] An else clause must be included after else if [[@mpokrass]]
+(https://github.com/duaraghav8/solium-plugin-security/pull/4)
 - [required] Prohibit use of send
-- **[optional]** Prohibit use of call.value
-- **[optional]** Prohibit use of user-defined modifiers
+ [[TristanH]] (https://github.com/duaraghav8/solium-plugin-security/pull/5)
+- [required] Prohibit modification of for loop iteration counting variables in the loop body 
+ [[nfeignon]] (https://github.com/duaraghav8/solium-plugin-security/pull/7)
+- [required] Prohibit use of inheritance [[@nfeignon]]
+(https://github.com/duaraghav8/solium-plugin-security/pull/8)
+- [required] Prohibit use of multiple inheritance [[@nfeignon]]
+(https://github.com/duaraghav8/solium-plugin-security/pull/8)
+- [required] Prohibit abstract functions
+[[@nfeignon]](https://github.com/duaraghav8/solium-plugin-security/pull/9)
+- [required] Functions must have an explicit return statement [[@nfeignon]](https://github.com/duaraghav8/solium-plugin-security/pull/10)
+- [required] Prohibit loops without fixed bounds [[@nfeignon]](https://github.com/duaraghav8/solium-plugin-security/pull/11)
+- **[optional]** Functions must have a single return at the end of the function [[@Cisplatin]](https://github.com/duaraghav8/solium-plugin-security/pull/12)
+- [required] Functions must have a declared return type (i.e., no void returns) [[@nfeignon]](https://github.com/duaraghav8/solium-plugin-security/pull/13)
+- [required] Prohibit function overriding [[@nfeignon]](https://github.com/duaraghav8/solium-plugin-security/pull/16)
+
 
 ## <a id="bounty-two"/> Bounty #2: Portable Solidity Debugger
 
