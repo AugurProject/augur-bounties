@@ -34,16 +34,13 @@ Bounties put fourth by the Augur team for Ethereum/Solidity tooling.
 
 ### Pending Merge: (11 of 30)
 
-- [required] An else clause must be included after else if [[@mpokrass]]
-(https://github.com/duaraghav8/solium-plugin-security/pull/4)
+- [required] An else clause must be included after else if [[@mpokrass]](https://github.com/duaraghav8/solium-plugin-security/pull/4)
 - [required] Prohibit use of send
- [[TristanH]] (https://github.com/duaraghav8/solium-plugin-security/pull/5)
+ [[TristanH]](https://github.com/duaraghav8/solium-plugin-security/pull/5)
 - [required] Prohibit modification of for loop iteration counting variables in the loop body 
- [[nfeignon]] (https://github.com/duaraghav8/solium-plugin-security/pull/7)
-- [required] Prohibit use of inheritance [[@nfeignon]]
-(https://github.com/duaraghav8/solium-plugin-security/pull/8)
-- [required] Prohibit use of multiple inheritance [[@nfeignon]]
-(https://github.com/duaraghav8/solium-plugin-security/pull/8)
+ [[nfeignon]](https://github.com/duaraghav8/solium-plugin-security/pull/7)
+- [required] Prohibit use of inheritance [[@nfeignon]](https://github.com/duaraghav8/solium-plugin-security/pull/8)
+- [required] Prohibit use of multiple inheritance [[@nfeignon]](https://github.com/duaraghav8/solium-plugin-security/pull/8)
 - [required] Prohibit abstract functions
 [[@nfeignon]](https://github.com/duaraghav8/solium-plugin-security/pull/9)
 - [required] Functions must have an explicit return statement [[@nfeignon]](https://github.com/duaraghav8/solium-plugin-security/pull/10)
