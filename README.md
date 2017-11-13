@@ -19,7 +19,7 @@ Bounties put fourth by the Augur team for Ethereum/Solidity tooling.
 - [required] Prohibit use of tx.origin [[@solium-plugin]](https://github.com/duaraghav8/solium-plugin-security)
 - **[optional]** Prohibit use of call.value [[@solium-plugin]](https://github.com/duaraghav8/solium-plugin-security)
 - **[optional]** Prohibit use of delegatecall [[@solium-plugin]](https://github.com/duaraghav8/solium-plugin-security)
-- [required] Prohibit use of selfdestruct/suicide [[@beaugunderson]](https://github.com/duaraghav8/solium-plugin-security/pull/1)
+- [required] Prohibit use of selfdestruct/suicide [[@bwitt2]](https://github.com/duaraghav8/solium-plugin-security/pull/1)
 - [required] Prohibit bitshifts and bit operators [[@beaugunderson]](https://github.com/duaraghav8/solium-plugin-security/pull/1)
 - [required] Prohibit fixedpoint (fixed and ufixed) types [[@beaugunderson]](https://github.com/duaraghav8/solium-plugin-security/pull/1)
 - [required] Prohibit use of integer types smaller than 256 bits [[@beaugunderson]](https://github.com/duaraghav8/solium-plugin-security/pull/1)
