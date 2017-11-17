@@ -12,7 +12,7 @@ The debugger should have the following features:
 
 - Set breakpoints in Solidity
 - Inspect variables when those breakpoints are hit
-- Execute Solidity from the context of a bremakpoint and see the result/failure
+- Execute Solidity from the context of a breakpoint and see the result/failure
 - Library that can be integrated into editors/IDEs
 - VSCode integration
 - Should work on any OS
