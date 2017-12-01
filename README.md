@@ -35,8 +35,6 @@ All claimed for right now! Keep an eye out for more rules being added.
 Please read [how to claim your bounty](https://github.com/AugurProject/augur-bounties#-claiming) below if you're on this list:
 
 - [required] Prohibit use of selfdestruct/suicide [[@bwitt2]](https://github.com/duaraghav8/solium-plugin-security/pull/1)
-- [required] Prohibit use of send
- [[TristanH]](https://github.com/duaraghav8/solium-plugin-security/pull/5)
 
 
 --------
@@ -73,6 +71,8 @@ Please read [how to claim your bounty](https://github.com/AugurProject/augur-bou
 - [required] Prohibit use of inheritance but allow interfaces [[@nfeignon]](https://github.com/duaraghav8/solium-plugin-security/pull/20)
 - [required] Only one break statement allowed per loop [[@artemlitch]](https://github.com/duaraghav8/solium-plugin-security/pull/3)
 - [required] An else clause must be included after else if [[@mpokrass]](https://github.com/duaraghav8/solium-plugin-security/pull/4)
+- [required] Prohibit use of send
+ [[TristanH]](https://github.com/duaraghav8/solium-plugin-security/pull/5)
 
 --------
 
