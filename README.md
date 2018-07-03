@@ -4,6 +4,8 @@ Bounties put fourth by the Augur team for Ethereum/Solidity tooling.
 
 ## <a id="bounty-two"/> Bounty #2: Portable Solidity Debugger
 
+**CLAIMED**: This bounty has been claimed by https://github.com/seeseplusplus/velma
+
 **2,000 REP** bounty for a Solidity debugger which is portable / provided as a library.  
 
 The 2,000 REP has been escrowed with Bounties.Network and [can be seen here](https://beta.bounties.network/bounty/14). 
